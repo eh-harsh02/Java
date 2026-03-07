@@ -1,7 +1,7 @@
 import java.util.*;
 public class arrayList {
     public static void main(String[] args) {
-        ArrayList<String> ar = new ArrayList<String>();
+        List<String> ar = new ArrayList<>();
         ar.add("Harsh");
         ar.add("Aman");
         ar.add("Kumar");
@@ -15,7 +15,7 @@ public class arrayList {
         System.out.println(ar.get(1));
         // System.out.println(ar.set(3, "Prem"));
 
-        ArrayList<Integer> ai = new ArrayList<Integer>();
+        List<Integer> ai = new ArrayList<>();
         ai.add(76);
         ai.add(86);
         ai.add(245);

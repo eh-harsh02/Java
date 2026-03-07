@@ -1,3 +1,4 @@
+package filehandling;
 import java.io.FileInputStream;
 public class fileInputstreamm {
     public static void main(String[] args) {

@@ -8,10 +8,10 @@ this.empname=empname;
 }
 }
 
-class record extends employee
+class Record extends employee
 {
 float sal;
-record(int empid, String empname, float sal)
+Record(int empid, String empname, float sal)
 {
 super(empid,empname);
 this.sal=sal;
@@ -25,9 +25,9 @@ System.out.println("Employee detail: "+empid+","+empname+" and "+sal+".");
 class superKey
 {
 public static void main(String... args){
-record r=new record(125,"Aman",78954);
+Record r=new Record(125,"Aman",78954);
 r.show();
-record r1=new record(126,"Ram",58946);
+Record r1=new Record(126,"Ram",58946);
 r1.show();
 }
 }

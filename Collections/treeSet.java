@@ -1,7 +1,7 @@
 import java.util.*;
 public class treeSet {
     public static void main(String[] args) {
-        TreeSet<String> set = new TreeSet<>();
+        Set<String> set = new TreeSet<>();
         set.add("Aman");
         set.add("Raj");
         set.add("Kumar");
@@ -22,7 +22,7 @@ public class treeSet {
         int i=set.size();
         System.out.println("Length of collection: "+i);
         System.out.println(set.size());
-        TreeSet<String> set2 = new TreeSet<>();
+        Set<String> set2 = new TreeSet<>();
         set2 = (TreeSet)set.clone();
         System.out.println(set2);
         set2.clear();

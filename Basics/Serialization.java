@@ -1,9 +1,4 @@
 import java.io.*;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 class employee implements Serializable
 {
 String name;
@@ -15,6 +10,7 @@ this.name=name;
 this.gender=gender;
 this.age=age;
 }
+
 String tostring()
 {
 return "name is :- "+name+ ", gender of employee is:- "+gender+ "age is :- "+age+ ".";

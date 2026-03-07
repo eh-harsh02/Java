@@ -1,3 +1,4 @@
+package filehandling;
 import java.io.FileOutputStream;
 public class fileOutputstreamm {
     public static void main(String[] args) {

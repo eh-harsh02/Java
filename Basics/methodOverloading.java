@@ -12,11 +12,12 @@ static double add(double a, int b)
 {
 return a+b;
 }
-public static void main(String... args)
+public static void main(String[] args)
 {
-System.out.println(methodOverloading.add(4+5));
-System.out.println(methodOverloading.add(8+4+2));
-System.out.println(methodOverloading.add(5.44+5));
+System.out.println(methodOverloading.add(4,5));
+System.out.println(methodOverloading.add(8,4,2));
+System.out.println(methodOverloading.add(5.44, 5));
+
 }
 /*public static void main()
 {

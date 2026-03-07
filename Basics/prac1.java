@@ -13,6 +13,10 @@ public class prac1 {
         A obj1 = new A();
         B obj2 = new B();
         A obj4 = new B();
-        B obj3 = new A();
+        // B obj3 = new A(); // compile time error Reason:
+        /*
+        A is not a B.
+        Parent cannot be assigned to a child reference.
+        */
     }
 }

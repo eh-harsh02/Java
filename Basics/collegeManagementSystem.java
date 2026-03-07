@@ -66,7 +66,7 @@ do{
 System.out.println("Enter Choice:- ");
 System.out.println("1. Student");
 System.out.println("2. Faculty");
-System.out.println("3. Choice")
+System.out.println("3. Choice");
 int choice = scn.nextInt();
 switch(choice)
 {
@@ -86,7 +86,6 @@ System.out.println("Invalid choice");
 break;
 }
 }
-while (!exit){
-}
+while (!exit);
 }
 }

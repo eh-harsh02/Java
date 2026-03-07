@@ -1,5 +1,5 @@
 class finalKeyword{
-static final String color = "Black";
+static String color = "Black";
 static void change()
 {
 color="Red";

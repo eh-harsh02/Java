@@ -1,8 +1,8 @@
-import java.util.*;
 import java.lang.*;
+import java.util.*;
 public class hashMapp {
     public static void main(String[] args) {
-        Map<Integer, String> map = new HashMap<Integer, String>();
+        Map<Integer, String> map = new HashMap<>();
         map.put(101, "Aman");
         map.put(102, "Ram");
         map.put(103, "Shyam");
