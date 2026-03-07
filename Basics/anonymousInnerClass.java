@@ -1,4 +1,4 @@
-abstract class student{
+abstract class anonymousInnerClass{
 abstract void detail();
 }
 class anonymousInnerClass{

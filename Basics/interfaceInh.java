@@ -1,10 +1,10 @@
-interface rollNo{
+interface interfaceInh{
 void rollNoDetail();
 }
-interface name extends rollNo{
+interface interfaceInh extends rollNo{
 void nameDetail();
 }
-interface studentDetail extends name{
+interface interfaceInh extends name{
 void detail();
 }
 class interfaceInh implements studentDetail{

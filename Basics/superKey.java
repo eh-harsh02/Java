@@ -1,4 +1,4 @@
-class employee
+class superKey
 {
 int empid;
 String empname;
@@ -8,7 +8,7 @@ this.empname=empname;
 }
 }
 
-class Record extends employee
+class superKey extends employee
 {
 float sal;
 Record(int empid, String empname, float sal)

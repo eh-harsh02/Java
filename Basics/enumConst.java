@@ -1,8 +1,8 @@
 class enumConst{
-enum Dress{
+enum enumConst{
 jeans(80),tshirts(85),pants(95),coat(65);
 private int x;
-private Dress(int y) //enum constructor
+private Dress(int y) //enum enumConst
 {
 x=y;
 }

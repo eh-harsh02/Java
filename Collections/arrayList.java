@@ -48,3 +48,4 @@ public class arrayList {
         System.out.println(Collections.frequency(al3, 'S'));
     }
 }
+

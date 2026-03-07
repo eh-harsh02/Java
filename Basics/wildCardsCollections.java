@@ -1,15 +1,15 @@
 import java.util.*;
-abstract class honda{
+abstract class wildCardsCollections{
     abstract void show();
 }
 
-class i10 extends honda{
+class wildCardsCollections extends honda{
     void show(){
         System.out.println("I am i10");
     }
 }
 
-class i20 extends honda{
+class wildCardsCollections extends honda{
     void show(){
         System.out.println("I am i20");
     }
@@ -23,8 +23,7 @@ public class wildCardsCollections {
         }
     }
     public static void main(String[] args) {
-        List<i10> obj = new ArrayList<i10>(); // List--> Interface & ArrayList--> Class
-        obj.add(new i10());
+        List<i10> obj = new ArrayList<i10>(); // List--> Interface & ArrayList--> class wildCardsCollections.add(new i10());
         car(obj);
 
         List<i20> obj1 = new ArrayList<i20>();
@@ -32,3 +31,4 @@ public class wildCardsCollections {
         car(obj1);
     }
 }
+

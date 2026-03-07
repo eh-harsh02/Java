@@ -1,4 +1,4 @@
-enum color{
+enum enumWithOutClass{
 black,white,red,yellow,purple,blue;
 public static void main(String []args){
 color c = color.purple;

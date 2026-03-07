@@ -1,4 +1,4 @@
-class gen<T,V>{
+class genericT_V<T,V>{
     T rollno;
     V name;
     gen(T rollno, V name){
@@ -21,3 +21,4 @@ public class genericT_V {
         obj2.display();
     }
 }
+

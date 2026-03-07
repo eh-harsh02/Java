@@ -1,4 +1,4 @@
-class employee
+class StaticMethod
 {
 String name;
 int empid;

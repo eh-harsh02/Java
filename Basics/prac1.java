@@ -1,10 +1,10 @@
 public class prac1 {
-    public static class A{
+    public static class prac1{
         void name(){
             System.out.println("A");
         }
     }
-    public static class B extends A {
+    public static class prac1 extends A {
         void name(){
             System.out.println("A");
         }
@@ -20,3 +20,4 @@ public class prac1 {
         */
     }
 }
+

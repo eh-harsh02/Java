@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.Collections;
 
-class medicine{
+class useOfLambda{
 int medId;
 String medName;
 float medPrice;

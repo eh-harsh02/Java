@@ -1,7 +1,7 @@
 class staticNestedClass 
 {
 static String uni="LPU";
-static class inner
+static class staticNestedClass
 {
 void show()
 {

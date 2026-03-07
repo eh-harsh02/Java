@@ -27,3 +27,4 @@ public class ValidateIp {
         System.out.println(isValidIP(ip));
     }
 }
+

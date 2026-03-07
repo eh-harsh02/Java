@@ -11,3 +11,4 @@ public class printAsc {
         obj.prntAsc(5);
     }
 }
+

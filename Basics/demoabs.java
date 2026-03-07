@@ -1,10 +1,10 @@
-interface newint{
+interface demoabs{
 void student();
 void faculty();
 void clerk();
 void officer();
 }
-abstract class demo implements newint{
+abstract class demoabs implements newint{
 public void student(){
 System.out.println("Student");
 }

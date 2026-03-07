@@ -1,4 +1,4 @@
-class patient
+class constructorWithThiskeyword
 {
 String name;
 int pid;

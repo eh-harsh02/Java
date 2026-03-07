@@ -1,7 +1,7 @@
 class staticInnerclass
 {
 static String country="India";
-static class inner
+static class staticInnerclass
 {
 static void showCountry(){
 System.out.println("My country is:- "+country);

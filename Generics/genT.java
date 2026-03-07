@@ -1,4 +1,4 @@
-class gen<T>{
+class genT<T>{
     T a;
     void add(T a){
         this.a=a;
@@ -25,3 +25,4 @@ public class genT {
         System.out.println(c.show());
     }
 }
+

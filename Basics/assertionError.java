@@ -15,3 +15,4 @@ public class assertionError {
         System.out.println("Marks of user: "+marks);
     }
 }
+

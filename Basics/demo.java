@@ -1,4 +1,4 @@
-class abc
+class demo
 {
 void display()
 {

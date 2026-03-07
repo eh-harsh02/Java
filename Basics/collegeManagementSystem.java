@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class person
+class collegeManagementSystem
 {
 static int studentid = 100;
 String name;
@@ -8,7 +8,7 @@ Long contact;
 void detail(){}
 void display(){}
 }
-class student extends person
+class collegeManagementSystem extends person
 {
 void detail()
 {
@@ -30,7 +30,7 @@ System.out.println("Contact:- "+contact);
 }
 }
 
-class faculty extends person
+class collegeManagementSystem extends person
 {
 static int fid=200;
 char rank;
@@ -89,3 +89,4 @@ break;
 while (!exit);
 }
 }
+

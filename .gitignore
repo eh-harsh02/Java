@@ -4,3 +4,5 @@
 *.zip
 target/
 bin/
+tempCodeRunnerFile.java
+.vscode/

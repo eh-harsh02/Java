@@ -1,5 +1,4 @@
-// @FunctionalInterface
-interface lpu{
+// @Functionalinterface FunctionalInterface lpu{
 public void section();
 }
 

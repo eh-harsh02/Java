@@ -12,3 +12,4 @@ x = x.setScale(newscale, mathContext.getRoundingMode());
 System.out.println(x);
 }
 }
+

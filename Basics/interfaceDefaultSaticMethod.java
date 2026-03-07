@@ -1,4 +1,4 @@
-interface employee
+interface interfaceDefaultSaticMethod
 {
 default void show()
 {

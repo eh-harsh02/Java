@@ -1,6 +1,6 @@
 import java.util.*;
 import java.lang.*;
-class comp implements Comparator<String>{
+class comparatorinterface comparatorInterface Comparator<String>{
     public int compare(String s1, String s2){
         return s1.compareTo(s2);
     }
@@ -17,3 +17,4 @@ public class comparatorInterface {
         System.out.println("TreeSet comparison: "+obj);
     }
 }
+

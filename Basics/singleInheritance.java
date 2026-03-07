@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class employee
+class singleInheritance
 {
 Scanner scn = new Scanner(System.in);
 //System.out.println("Enter Employee name: ");
@@ -9,7 +9,7 @@ float salary = scn.nextFloat();
 //System.out.println("Enter Employee Designation: ");
 String desig = scn.next();
 }
-class promotion extends employee
+class singleInheritance extends employee
 {
 void bonus()
 {

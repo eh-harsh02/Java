@@ -1,4 +1,4 @@
-class chaining
+class constructorChaining
 {
 chaining()
 {

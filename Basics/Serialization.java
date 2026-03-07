@@ -1,5 +1,5 @@
 import java.io.*;
-class employee implements Serializable
+class Serialization implements Serializable
 {
 String name;
 char gender;

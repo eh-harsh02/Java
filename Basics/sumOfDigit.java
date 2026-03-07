@@ -9,3 +9,4 @@ public class sumOfDigit {
         System.out.println(sumD(4878478));
     }
 }
+

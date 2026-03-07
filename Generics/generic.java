@@ -16,3 +16,4 @@ public class generic {
         printElement(farr);
     }
 }
+

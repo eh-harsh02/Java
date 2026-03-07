@@ -1,4 +1,4 @@
-enum Direction{North, South, NorthEast, SouthEast, East, West;}
+enum enumDemo{North, South, NorthEast, SouthEast, East, West;}
 class enumDemo{
 public static void main(String[] args){
 for(Direction d:Direction.values()){

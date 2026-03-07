@@ -1,4 +1,4 @@
-class patient
+class thisKeyword
 {
 String name;
 int pid;

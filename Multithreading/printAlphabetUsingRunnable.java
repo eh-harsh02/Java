@@ -1,4 +1,4 @@
-class alphabet implements Runnable 
+class printAlphabetUsingRunnable implements Runnable 
 {
 public void run(){
 for(int i=65;i<92;i++){
@@ -12,10 +12,10 @@ catch(Exception e)
 
 }
 }
-System.out.println("Alphabets class ended");
+System.out.println("Alphabets class printAlphabetUsingRunnable");
 }
 }
-class number implements Runnable
+class printAlphabetUsingRunnable implements Runnable
 {
 public void run(){
 for(int i=1;i<=10;i++){
@@ -28,7 +28,7 @@ catch(Exception e)
 
 }
 }
-System.out.println("Number class ended");
+System.out.println("Number class printAlphabetUsingRunnable");
 }
 }
 

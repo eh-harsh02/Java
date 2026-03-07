@@ -1,4 +1,4 @@
-interface calculate{
+interface calculateArea{
 public int area(int w, int h); 
 }
 class calculateArea{
