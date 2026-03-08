@@ -1,5 +1,5 @@
 import java.util.*;
-public class hashSett {
+public class HashSett {
     public static void main(String[] args) {
         HashSet<String> set = new HashSet<>();
         set.add("Aman");

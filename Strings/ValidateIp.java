@@ -12,9 +12,10 @@ public class ValidateIp {
                 return false;
             }
 
-            for(char ch : elt.toCharArray()) {
-                if(!Character.isDigit(ch)) return false;
-            }
+            // for(char ch : elt.toCharArray()) {
+            //     if(!Character.isDigit(ch)) return false;
+            // }
+            if(!elt.matches("\\d+")) return false;
             int num = Integer.parseInt(elt);
             if(num < 0 || num > 255) return false;
         }
